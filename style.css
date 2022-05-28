@@ -1,0 +1,339 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:1800px;
+}
+
+#wrapper_box{
+    margin-left:auto;
+    margin-right:auto;
+    width:2600px;
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right bottom, #ffffff, #fefdff, #fefcff, #fefaff, #fef8ff, #fef4fd, #fef0fa, #ffecf6, #ffe6ec, #ffe1dc, #ffdfca, #ffdfb9);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 5px 1%;
+    font-family: 'Patrick Hand', cursive;
+    outline-color: #80eb34;
+    outline-width: 1px;
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 1.1em;
+}
+span{
+    padding-left: 70%;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+p {
+    font-size: 16pt;
+}
+
+.page_name {
+    color: white;
+    font-weight: bold;
+    text-shadow: 4px 4px 0 #000;
+    background-image: linear-gradient(to right top, #f7ccff, #ffc5e7, #ffc3cb, #ffc6b2, #ffcda1);
+    padding: 350px 200px;
+    width:100%;
+}
+
+.page_name_text {
+    cursor: pointer;
+    font-size: 150px;
+    font-family: 'Permanent Marker', cursive;
+    padding-left: 9%;
+    text-shadow: 3px 3px 0 #000;
+}
+
+.site_name{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40pt;
+    color: wheat;
+    text-shadow: 3px 3px 0 #000;
+
+
+
+
+
+
+}
+
+li, a{
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav_links{
+    list-style: none;
+}
+
+.nav_links, li {
+    padding: 0px 10px;
+}
+
+.nav_links li a:hover{
+    height: 100%;
+    font-size: 22pt;
+    transition: all 0.7s ease;
+    color: white;
+
+
+
+
+
+}
+
+
+
+.overlay{
+    padding: 20px;
+    width: auto;
+    margin-left: 220px;
+    margin-right: 220px;
+    font-size: 1.1em;
+    height: 100vh;
+}
+
+.content{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20pt;
+
+
+}
+
+.row {
+    display: flex;
+
+}
+
+.column {
+    flex: 50%;
+    padding-top: 50px;
+
+
+
+
+}
+
+.tools{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.p1photo {
+    border-radius: 40%;
+    display: block;
+    margin-left: 55%;
+    width:200px;
+    height:200px;
+    background-image: url("assets/prerak.jpg");
+}
+.p2photo{
+    border-radius: 40%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width:200px;
+    height:200px;
+    object-fit: cover;
+    object-position: top right;
+}
+.p3photo{
+    border-radius: 40%;
+    display: block;
+    margin-right: auto;
+    width:200px;
+    height:200px;
+    object-fit: fill;
+    object-position: top right;
+}
+.p4photo{
+    border-radius: 40%;
+    display: block;
+    margin-left: 5%;
+    width:200px;
+    height:200px;
+    background-image: url("assets/prerak.jpg");
+
+}
+.p5photo{
+    border-radius: 40%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width:200px;
+    height:200px;
+}
+.p6photo{
+    border-radius: 40%;
+    display: block;
+    margin-left: auto;
+    width:200px;
+    height:200px;
+}
+
+
+.subheading {
+    margin: auto;
+    width: 15%;
+    font-size: 20pt;
+    color: #3D1FA6;
+
+}
+
+.ideal_job {
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20pt;
+}
+
+
+td{
+    margin: auto;
+    padding: 10px;
+    font-size: 20pt;
+    font-family: 'Patrick Hand', cursive;
+}
+table, th{
+    margin: auto;
+    padding: 10px;
+    font-size: 20pt;
+    font-family: 'Patrick Hand', cursive;
+}
+
+th, td {
+    border:1px solid black;
+}
+
+h2{
+    font-family: 'Bangers', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Tapestry', cursive;
+
+}
+h2::first-letter{
+    color: #3D1FA6;
+    outline: white 5pt;
+    font-size: 45pt;
+}
+h3::first-letter{
+    color: #3D1FA6;
+    outline: white 5pt;
+
+
+}
+
+.p1title{
+    margin-left: 55%;
+}
+
+.p2title{
+    margin-left: 25%;
+}
+.p3title{
+
+}
+.p4title{
+
+}
+.p5title{
+    margin-left: 20%;
+}
+.p6title{
+    margin-left:60%;
+}
+
+.links{
+    font-size: 16pt;
+}
+
+
+
+.profile1{
+    height: 800px;
+}
+.profile2{
+    height: 800px;
+}
+.profile4{
+    height: 800px;
+}
+.profile5{
+    height: 800px;
+}
+
+.intro-text{
+    width: 600px;
+}
+
+.next_page{
+    display: inline-block;
+    padding-bottom: 20px;
+
+}
+
+.back_page{
+    display: inline-block;
+    margin-right: 1000px;
+    padding-bottom: 20px;
+}
